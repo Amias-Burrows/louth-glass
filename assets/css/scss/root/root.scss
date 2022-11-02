@@ -1,0 +1,12 @@
+@import '../globals/colours';
+@import '../globals/font';
+
+html {
+	body {
+		@import '../header/header';
+
+		@import '../main/main';
+
+		@import '../footer/footer';
+	}
+}
