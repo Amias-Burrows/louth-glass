@@ -1,23 +1,31 @@
 header {
-
 	width: 90vw;
 	padding: 10px;
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: space-between;
+
 	div.logo {
 		width: 120px;
 		height: 60px;
 		background-image: url('https://picsum.photos/120/60');
 	}
+
 	div.nav-menu {
+
 		div.menu-icon {
-			position: absolute;
 			width: 60px;
 			height: 60px;
 			background-image: url('https://www.freeiconspng.com/img/19353');
 		}
+
 		ul.menu {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 0;
+			height: 100vh;
+			overflow: hidden;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
