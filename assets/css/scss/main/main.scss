@@ -1,2 +1,9 @@
 main {
+	margin-top: 80px;
+
+	@import './sections/home';
+
+	@import './sections/about';
+
+	@import './sections/cta';
 }

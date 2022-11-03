@@ -30,6 +30,12 @@ header {
 			flex-direction: column;
 			align-items: center;
 			justify-content: flex-start;
+			transition: all 0.5s ease-in-out;
+			box-shadow: 10px 10px 10px black inset;
+			
+			&.open {
+				width: 70vw;
+			}
 		}
 	}
 }
